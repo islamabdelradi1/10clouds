@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #110827;
+    font-family: 'Ubuntu', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px 70px;
+}
+.nav-left img{
+    width: 150px;
+    cursor: pointer;
+}
+.nav-center a{
+text-decoration: none;
+color: #8B8B98;
+padding: 0 30px;
+font-weight: bold;
+}
+.nav-center a:hover{
+    color: white;
+}
+.nav-right a{
+text-decoration: none;
+color: #8B8B98;
+font-size: 20px;
+padding:5px 6px;
+border-radius: 5px;
+text-align: center;
+align-items: center;
+display: inline-block;
+}
+.nav-right a:hover{
+    background-color: #d6d6d627;
+}
+section{
+    margin-top: 150px;
+}
+.klam .p1{
+    color: white;
+    background-color: #231A38;
+    width: 150px;
+    font-size: 10px;
+    border-radius: 40px;
+    padding: 10px;
+    margin:auto;
+    margin-bottom: 20px;
+}
+.klam h1{
+    color: #ffffff;
+    font-size: 120px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.klam .p2{
+    color: #8B8B98;
+    font-size: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+.klam a{
+    color: white;
+    text-decoration: none;
+    background-color: #8452FF;
+    border-radius: 25px;
+    padding: 25px 70px;
+    font-weight: bold;
+    margin: auto;
+    display: flex;
+    width: 200px;
+}
+
+.imges .img-left{
+    width: 300px;
+    position: absolute;
+    top: 434px;
+    right: 1291px;
+    z-index: -1;
+
+}
+.imges .img-raigt{
+    width: 300px;
+    position: absolute;
+    top: 126px;
+    right: 341px;
+    z-index: -1;
+}
+.s2{
+    background-color: white;
+}
+.pra12{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    align-items: center;
+}
+.pra12 h1{
+    font-size: 70px;
+    font-weight: 600;
+}
+.pra12 h1 span{
+color: #8452FF;
+}
+
+.pra12 p{
+    font-size: 21px;
+    margin-left: 200px;
+    color: #9F9FAA;
+}
+.s2 img{
+    display: flex;
+    width: 1200px;
+    margin: 100px auto;
+}
+.imgss{
+display: flex;
+justify-content: center; 
+margin: 0 900px;
+
+}
+.img12 img:hover{
+    transition:transform 1s ease-in-out;
+    transform: scale(1.2);
+}
+.montsf2 .imgss img{
+    width: 30px;
+    background-color: white;
+    box-shadow: 1px 1px 2px 1px #00000021;
+    border-radius: 50%;
+    margin-bottom: 20px;
+
+}
+.montsf-22{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.montsf-22 h1{
+    font-size: 70px;
+}
+.montsf-22 h1 span{
+    color:#8452FF ;
+}
+.montsf-22 p{
+    color: #90909C;
+    font-size: 20px;
+    margin-top: 30px;
+}
+.img12{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 0 300px;
+    margin-top: 80px;
+
+=}
+.img12 img{
+    width: 300px;
+    margin: 10px 0;
+}
+.down{
+    display: flex;
+    justify-content: center;
+}
+.down a{
+    text-decoration: none;
+    color: white;
+    background-color: #293245;
+    padding: 20px 40px;
+    border-radius: 20px;
+    margin: 40px 0;
+    font-weight: bold;
+}
+.down a i{
+    padding-right: 10px;
+}
+.montsf3{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+.montsf3 .ai h1{
+    font-size: 60px;
+    margin-top: 90px;
+
+}
+.montsf3 .ai h1 span{
+    color: #8452FF;
+}
+.montsf3 .img33 img{
+    width: 400px;
+    background-color: #F9F9FC;
+    padding: 150px 0;
+    border-radius: 50px;
+}
+.ai a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 117px 0 0;
+    font-size: 20px;
+    border-bottom: 1px solid #dfdcdc;
+    padding: 10px;
+}
+.ai a i{
+    display: flex;
+    padding-left: 85px;
+    align-items: center;
+}
+.montsf4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+
+}
+.montsf4 .montsf4-img img{
+    width: 500px;
+    margin-left: 20px;
+}
+.montsf4-p{
+    margin-left: 70px;
+}
+.montsf4-p h1{
+    font-size: 65px;
+}
+.montsf4-p h1 span{
+    color: #8452FF;
+}
+.montsf4-p p{
+    color: #91919E;
+    font-size: 19px;
+    font-weight: 300;
+    margin: 30px 0;
+}
+.montsf4-p a{
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid black;
+    font-weight: 500;
+    font-size: 17px;
+
+}
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    height: 150px;
+    align-items: center;
+}
+.footer-left{
+    display: flex;
+    align-items: center;
+}
+.footer-left img{
+    width: 150px;
+}
+.footer-left a{
+    text-decoration: none;
+    color: #8B8B98;
+    padding-left: 35px;
+    font-size: 17px;
+
+}
+.footer-about p{
+    color: #8B8B98;
+}
