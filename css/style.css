@@ -74,11 +74,11 @@ section{
     text-decoration: none;
     background-color: #8452FF;
     border-radius: 25px;
-    padding: 25px 70px;
+    padding: 13px 40px 13px 40px;
     font-weight: bold;
-    margin: auto;
     display: flex;
-    width: 200px;
+    width: 130px;
+    margin: 56px auto;
 }
 
 .imges .img-left{
